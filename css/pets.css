@@ -1,0 +1,129 @@
+.my_pets {
+    font-family: 'Futura New', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.add_new_pets {
+    display: flex;
+    align-items: center;
+    width: 909px;
+    height: 150px;
+    
+    background-color: rgb(248, 192, 89);
+    border-radius: 20px;
+    margin-bottom: 50px;  
+    cursor: pointer;
+} 
+
+.add {
+    font-family: Futura New;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    text-align: left;
+    color: white;
+}
+
+.pet_name {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.pets-data {
+    margin: 20px;
+    font-family: 'Futura New', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pets-data__card {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    max-width: 800px;
+}
+
+.pets-data__about {
+    padding-left: 20px;
+}
+
+.pets__img { 
+    height: 95%;
+}
+
+.label {
+    font-size: 12px;
+    color: #A3A3A3;
+    display: block;
+}
+
+.pets-data__info {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.pets-data__empty {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.pets-data__edit, 
+.pets-data__delete {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.pets-data__edit {
+    background-color: rgb(248, 192, 89);
+    color: #FFFFFF;
+}
+
+.pets-data__edit:hover {
+    background-color: #FB8C00;
+    transform: scale(1.05);
+}
+
+.pets-data__delete {
+    background-color: #6D4C41;
+    color: #FFFFFF;
+}
+
+.pets-data__delete:hover {
+    background-color: #5D4037;
+    transform: scale(1.05);
+}

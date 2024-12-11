@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    text-decoration: none;
+    font-family: Futura New;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #C3B9B5;
+}
+
+.nav__link:hover {
+    color: #59443F;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.navigation__link {
+    padding-right: 15px;
+    font-family: Futura New;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFC59E;
+
+}
+
+.header__logo {
+    cursor: pointer;
+    padding-left: 15px;
+}
+
